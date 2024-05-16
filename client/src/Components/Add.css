@@ -1,0 +1,75 @@
+.add-containeter{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 150px;
+  background-color: white;
+  height: 550px;
+  width: 1100px;
+  border-radius: 50px;
+  justify-content: space-around;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+
+}
+
+.leftaddContainer{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centering the content vertically */
+  flex: 1;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    color:black;
+   
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+    input {
+      width: 250px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #F2C9C9;
+      color: black;
+    }
+
+
+    button {
+      border: 1 px solid white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #F2C9C9;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+
+
+      &:hover{
+        background-color: #ff7574;
+      }
+    }
+  
+
+    .addimage{
+      margin-left: 130px;
+      margin-top: 20px;
+      margin-right: 40px;
+    }
+
+    .addimage .image{
+      width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+    }

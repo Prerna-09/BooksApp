@@ -1,0 +1,83 @@
+
+body{
+    font-family: 'Lora', sans-serif; 
+    background-color: #F2DCC9;
+}
+
+
+.details-container{
+   display: flex;
+   margin-top: 30px;
+   margin-left: 150px;
+   background-color: white;
+   height: 550px;
+   width: 1100px;
+   border-radius: 50px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.left{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.details{
+     width: 450px;
+     height: 480px;
+     border: 1px solid black;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.particular-book{
+
+    margin-left: 60px;
+
+}
+
+.particular-img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.particular-title{
+ margin-top: 5px;
+ margin-left: 60px;
+ font-size: 20px;
+}
+
+.particular-author{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 70px;
+
+}
+
+.particular-price{
+font-size: 12px;
+margin-top: 5px;
+margin-left: 90px;
+font-size: 20px;
+
+}
+
+
+
+
+
+
+
+.right{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+
+.soloimage{
+    width: 450px;
+     height: 480px;
+    border: 1px solid black;
+}
+
+

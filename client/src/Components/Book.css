@@ -1,0 +1,86 @@
+.container-book{
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color: #F2C9C9;
+   width: 1200px;
+   border-radius: 50px;
+   flex-wrap: wrap;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.books{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ 
+    border-radius: 50px;
+}
+
+.book{
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 280px;
+    width: 280px;
+    
+}
+
+
+
+.img-modify{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.title{
+ margin-top: -5px;
+ font-size: 20px;
+}
+
+.author{
+    font-size: 15px;
+
+}
+
+.price{
+font-size: 12px;
+margin-top: -5px;
+}
+
+
+.btn{
+    display: flex;
+    margin-left: 60px;
+    margin-top: -20px;
+    gap:25px;
+}
+.book .delete{
+    border: 1px solid #BF6F8C;
+    background-color: white;
+    color: #BF6F8C;
+  
+}
+.book .delete:hover{
+    background-color: #BF6F8C;
+    color: black;
+}
+
+.book .update{
+    border: 1px solid #BF6F8C;
+    background-color: white;
+    color: #BF6F8C;
+}
+.book .update:hover{
+    background-color: #BF6F8C;
+    color: black;
+}
+
+   
