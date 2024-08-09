@@ -14,7 +14,7 @@ const Detail = () => {
   useEffect(() => {
     const fetchParticularBook = async () => {
       try {
-        const res = await axios.get(`http://localhost:8800/books/${bookId}`, book);
+        const res = await axios.get(`https://booksapp-backend-9kq2.onrender.com/${bookId}`, book);
         setBook(res.data);
       } catch (err) {
         console.log(err);
