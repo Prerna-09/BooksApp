@@ -26,7 +26,7 @@ const Update = () => {
     e.preventDefault();
 
     try {
-      await axios.put(`http://localhost:8800/books/${bookId}`, book);
+      await axios.put(`https://booksapp-backend-9kq2.onrender.com/${bookId}`, book);
       // const res = await axios.get(`http://localhost:8800/books/${bookId}`, book);
       // setBook(res.data);
       navigate("/books");
